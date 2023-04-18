@@ -1,20 +1,114 @@
 :root{
-	--bg-size: 100% 100%;
+
+    --bg-size: 100% 100%;
+
 }
-@media(max-width: 998px){	
+
+ 
+
+/* @media(max-width: 998px){
+
 html{
-	font-size:10%;
-	}
-}
-@media(max-width: 768px){	
+
+    font-size: 10%;
+
+    background-size: var(--bg-size);
+
+   
+
+    
+
+}}
+
+@media(max-width: 768px){
+
 html{
-	font-size:5%;
-	}
+
+    font-size: 5%;
+
+    background-size: var(--bg-size);
+
+   
+
 }
-body{
-	background-image: url("cup-cake.jpg");
-	background-size: var(--bg-size);
-	background-color: #cccccc;
-	background-repeat: no-repeat;
-	/* background-size: 1280px 607px; */
+
+}    */
+
+ 
+
+body {
+
+    background-image: url("cup-cake.jpg");
+    background-color: #cccccc;
+
+    background-repeat: no-repeat;
+
+    background-size: var(--bg-size);
+
+    /* background-size: 128rem 60.7rem;  */
+
+}
+
+ 
+
+   .Text p{
+
+    float: none;
+
+    margin: 0 9.8rem;
+
+    font-family: 'garamond';
+
+    font-size: 2rem;
+
+    margin-top: 18rem;
+
+    margin-bottom: -5rem;
+
+ 
+
+}
+
+ 
+
+.Countdown .ctdwn{
+
+       
+
+           width: 28rem;
+
+           height: 5.3rem;
+
+           border:0rem solid transparent;
+
+           padding: 0rem;
+
+           margin: 11rem 7.2rem;
+
+           color: white;
+
+           background-color: #f5ed79;
+
+           font-family: 'latobold';
+
+           font-size: 1rem;
+
+          margin-top: 6rem;
+
+}
+
+.Countdown .ctdwn p {
+
+    text-align: center;
+
+    font-size: 4rem;
+
+    margin-top: 0rem;
+
+}
+
+.Countdown .ctdwn #demo{
+
+    margin-left:0rem;
+
 }

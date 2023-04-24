@@ -1,6 +1,6 @@
 // Set the date we're counting down to
 
-var countDownDate = new Date("april 24, 2023 01:02:00").getTime();
+var countDownDate = new Date("april 24, 2023 13:08:00").getTime();
 
  
 
